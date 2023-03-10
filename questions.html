@@ -1,0 +1,57 @@
+<html>
+    <script>
+        // Mostre Olá Mundo! no console \/
+        console.log("Hello World!");
+    /////////////////////////////////////////////
+        // Teste da criação de variavais \/
+        var abacate = 10;
+        var banana = 20;
+        var maca = 30;
+        var pera = 40;
+        var laranja = 50;
+            // Testes dos tipos de variaveis \/
+            var string = "FIAT";
+            var strinng = " GOL";
+            var number = 2020.1;
+            var boolean = false;
+    /////////////////////////////////////////////
+        // Testes dos tipos de operações \/
+        console.log(string + strinng);
+        console.log(banana - (number ** laranja));
+        console.log(abacate * number);
+        console.log(maca / banana);
+        console.log(laranja % (pera + maca));
+        console.log(banana += 1);
+        console.log((maca -= 1) + laranja);
+    /////////////////////////////////////////////
+        // Teste da criação de funções \/
+        function sacolaHortifrut(nabacate, nbanana, nmaca, npera, nlaranja) {
+            var qSacolaHortifrut = (nabacate + nbanana + nmaca + npera + nlaranja);
+            return qSacolaHortifrut;
+        }
+        // Chamando a função para o plano principal \/
+        console.log(sacolaHortifrut());
+    /////////////////////////////////////////////
+        // Teste de listas e estruturas de repetição com estruturas condicionais \/
+        // Lista \/
+        var alunos = ["Alan", "Leonardo", "Caio", "Ana", "Mellissa"];
+
+        var alunoalto = alunos[3];
+        var alunobelo = alunos[4];
+        var alunoatento = alunos[0];
+
+        console.log(alunos);
+        console.log("Aluno mais alto: " + alunoalto);
+        console.log("Aluno mais belo: " + alunobelo);
+        console.log("Aluno mais atento: " + alunoatento);
+        // Condicional
+        if(alunos > 4) {
+            console.log("ERRO!");
+        }
+        else {
+            for(var i = 0; i < alunos; i++) {
+                console.log(alunos[i]);
+            }
+        }
+    </script>
+</html>
