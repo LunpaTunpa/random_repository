@@ -1,0 +1,1 @@
+console.log("Teste JS... 1, 2, 3!"); // MOSTRE mensagem no console

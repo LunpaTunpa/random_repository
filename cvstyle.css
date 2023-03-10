@@ -1,0 +1,52 @@
+body {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    text-align: left;
+}
+
+
+h3 
+{
+    padding: 8px;
+}
+th, td
+{
+    padding: 2px;
+}
+tr, li
+{
+    padding: 4px;
+}
+
+tbody tr:nth-child(odd) 
+{
+    background-color: #cacaca;
+}
+tbody tr:nth-child(even) 
+{
+    background-color: #dfdfdf;
+}
+tbody tr:hover 
+{
+    font-weight: 550;
+    cursor: default;
+}
+
+.primetitle 
+{
+    color: darkred;
+}
+.sectitle 
+{
+    color: darkblue;
+}
+.autor 
+{
+    font-style: italic;
+}
+
