@@ -1,0 +1,30 @@
+body {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+button {
+    cursor:pointer;
+    margin: 8px;
+}
+.nums {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-align: center;
+}
+.num {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 8px;
+    width: 25px;
+    border-radius: 100%;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.selected-num {
+    background-color: lightgreen;
+}
