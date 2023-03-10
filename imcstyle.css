@@ -1,0 +1,21 @@
+body {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+#result 
+{
+    margin-top: 50px;
+}
+
+input 
+{
+    margin-top: 10px;
+    width: 320px;
+}
+label 
+{
+    font-family: monospace;
+    font-size: 16px;
+}
